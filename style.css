@@ -1,0 +1,65 @@
+section{
+    height: 100vh;
+   width: 100vw;
+   
+}
+/* .videoparent{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+} */
+.video{
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    position: relative;
+    
+}
+.video > video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.video > div{
+    min-width: 100%;
+    min-height: 100%;
+}
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+.parentinfo{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    line-height: normal;
+    max-width: 40%;
+    padding-left: 25px;
+}
+/* .titles > h3{
+    font-size: 22px;
+} */
+h1{
+    font-size: 64px;
+    line-height: normal;
+}
+h3{
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+}
+.title{
+    padding: 5px;
+}
+.infopara{
+    font-size: 15px;
+    max-width: 50%;
+}
